@@ -22,7 +22,7 @@ function updateClock() {
     hourEl.innerText = h;
     minutesEl.innerText = m;
     secondsEl.innerText = s;
-    ampmEl, (innerText = ampm);
+    ampmEl.innerText = ampm;
 
 // settimeout will reset the code block every 1000 mili Seconds
     setTimeout(() => {
